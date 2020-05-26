@@ -1,0 +1,10 @@
+#flex {
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+}
+
+.lula{
+    color: blue;
+}
+
