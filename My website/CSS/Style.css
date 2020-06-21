@@ -1,0 +1,168 @@
+body {
+    background-image: url(../IMAGES/Background.jpg);
+}
+
+#nav {
+    position: fixed;
+    background-color: black;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popo {
+    position: relative;
+    top: 85px;
+}
+
+.alinks {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin: 13px;
+}
+
+.alinks:hover, .dropdown:hover, .dropbtn:hover {
+    background-color: red;
+}
+
+/* Contact dropdown menu */
+
+.dropbtn { 
+    font-size: 30px;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+    background-color: #383838;
+    min-width: 190px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.lula {
+    margin: 12px;
+    color: white;
+}
+
+#fufa {
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+}
+
+.galo{
+    color: grey;
+}
+
+.gala{
+    color: gray;
+}
+
+.didi{
+    color: white;
+}
+
+/* Media querry */
+
+@media screen and (max-width: 1000px) {
+    #nav {
+        position: fixed;
+        height: 100%;
+        top: 0px;
+        width: 160px;
+        z-index: 10;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        background-color: black;
+        top: 0px;
+        left: 0px;
+        display: flex;
+    }
+
+    .alinks {
+        margin: 0px;
+    }
+
+    .popo {
+        margin-left: 160px;
+    }
+
+    .dropdown-content {
+        left: 100%;
+        top: 0;
+        z-index: 11;
+    }
+
+    #logo1 {
+        width: 140px;
+        height: 50px;
+    }
+
+ }
+
+    .product {
+        background-color: #D81E1E;
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        padding: 35px; 
+        margin-top: 20px;
+        color: white;
+    }
+
+    .blackprice:hover {
+        background-color: black;
+    }
+
+    #mainlineproducts, #secondlineproducts, #thirdlineproducts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .imageproduct{
+        width: 360px;
+        height: 190px;
+    }
+
+    #logo1 {
+        width: 165px;
+        height: 50px;
+    }
+
+    .title{
+        color: black;
+    }
+
+    .dodo{
+        color: ivory;
+    }
